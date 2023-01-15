@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 .page {
@@ -20,6 +21,7 @@ body {
   /* выше установили ограничения для секции */
   display: flex;
   background-color: #f2f2f2;
+  position: relative;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -74,10 +76,55 @@ body {
 }
 
 .header__square-pic {
+  position: absolute;
   height: 568px;
   width: 568px;
-  position: absolute;
-  right: 0px;
+  right: 0;
   top: 64px;
   background-color: #2f80ed;
+}
+
+#description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-columns {
+  display: flex;
+  width: 80%;
+  min-width: 784px;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+
+.two-columns_brief {
+  width: 175px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+
+.two-columns_main-text {
+  min-width: 784px;
+  width: 80%;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-column_span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.two-columns_main-text p {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.two-columns_main-text p:last-child {
+  margin-bottom: 0;
 }
