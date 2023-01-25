@@ -1,3 +1,11 @@
+@keyframes rotate {
+  form {
+    transform: rotate(0des)
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .page {
   min-width: 1100px;
@@ -17,6 +25,7 @@
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
+  overflow: hidden;
 }
 
 .logo {
@@ -150,7 +159,7 @@
 }
 
 .section-subtitle {
-  margin: 0 auto 0 auto;
+  margin: 0;
   display: flex;
   width: 60%;
   line-height: 34px;
@@ -303,7 +312,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .footer__author {
@@ -311,8 +319,7 @@
   margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal;
-  
+  font-weight: normal; 
 }
 
 .footer__column-links {
@@ -340,3 +347,51 @@
   text-decoration: none;
   color: #fff;
 }
+
+.rotation {
+  animation: rotate 20s infinite;
+}
+
+.techniques {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cards__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.cards__description{
+  margin: 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.cards__image {
+  margin: 60px 40px 43px 40px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 920px;
+  text-align: center;
+  column-gap: 100px;
+  margin: 0 auto 100px auto;
+}
+
+.cards__item {
+  width: 240px;
+}
+
+
