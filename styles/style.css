@@ -159,7 +159,7 @@
 }
 
 .section-subtitle {
-  margin: 0;
+  margin: 0 auto;
   display: flex;
   width: 60%;
   line-height: 34px;
@@ -392,6 +392,13 @@
 
 .cards__item {
   width: 240px;
+}
+
+.video__iframes {
+  margin: 50px auto -50px auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 
