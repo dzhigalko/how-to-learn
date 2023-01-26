@@ -100,6 +100,7 @@
 .description {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -107,7 +108,7 @@
   width: 80%;
   min-width: 784px;
   justify-content: space-between;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -154,7 +155,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
-  margin: 0 auto 20px auto;
+  margin: 100px auto 20px auto;
   justify-content: center;
 }
 
@@ -395,10 +396,14 @@
 }
 
 .video__iframes {
-  margin: 50px auto -50px auto;
+  margin: 50px auto -60px auto;
   display: flex;
   justify-content: center;
   gap: 20px;
 }
 
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 160px;
+}
 
