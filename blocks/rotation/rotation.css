@@ -1,5 +1,5 @@
 @keyframes rotate {
-  form {
+  from {
     transform: rotate(0deg);
   }
   to {
@@ -8,5 +8,5 @@
 }
 
 .rotation {
-  animation: rotate 20s infinite;
+  animation: rotate 20s linear infinite;
 }
